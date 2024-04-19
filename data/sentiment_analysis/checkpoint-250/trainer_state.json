@@ -1,0 +1,39 @@
+{
+  "best_metric": 0.872,
+  "best_model_checkpoint": "./data/sentiment_analysis/checkpoint-125",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 250,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.872,
+      "eval_loss": 0.3099774122238159,
+      "eval_runtime": 9.0402,
+      "eval_samples_per_second": 55.309,
+      "eval_steps_per_second": 3.54,
+      "step": 125
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.87,
+      "eval_loss": 0.3401128053665161,
+      "eval_runtime": 9.0921,
+      "eval_samples_per_second": 54.993,
+      "eval_steps_per_second": 3.52,
+      "step": 250
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 1250,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 10,
+  "save_steps": 500,
+  "total_flos": 540769566720000.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}
